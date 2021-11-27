@@ -1,0 +1,200 @@
+
+
+
+#first{
+    background: -webkit-linear-gradient(#eee, #333);
+    margin-top: 0px;
+}
+
+#img_p{
+    margin-top: 3px;
+}
+
+.the_float{
+    display: inline;
+    float: right; 
+  text-align: center;
+    width: 50%;
+    /* color: white; */
+    
+}
+
+    .description{
+        line-height: 2;
+        color: white;
+        font-family: 'PT Sans ,sans-serif';
+        font-size: 1.2rem;
+        padding: 10px;
+        width: 84%;
+        border: 2px solid;
+        border-radius: 1rem; 
+        border-top-color:orange;
+        border-left-color: blue;
+        border-right-color: yellow;
+        border-bottom: none;
+        
+         /* border-image: linear-gradient(to right, red, orange);  */
+          /* border-image-slice: -2;  */
+        
+    }
+
+
+    hr{
+        width: 40%;
+
+        margin-bottom: 20px;
+    }
+
+span{
+    display: block;
+    opacity: 0.8;
+    transition: padding 1s ease-in-out ,font-size 1s;
+}
+
+span:hover{
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+    /* font-family: 'PT Sans', sans-serif; */
+.hobbies h3{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 200px;
+}
+.hobbies{
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+    margin-right: 212px;
+    padding-bottom: 40px;
+
+    
+    
+}
+
+.coding img{
+    cursor: pointer;
+    /*  TRy to animate the images */
+}
+/* .hobbies p{
+    color: black;
+
+} */
+
+h3{
+    color: rgb(172, 158, 158);
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-weight: 900;
+}
+h4{
+    font-family: bold;
+    font-weight: 600;
+    transition:padding 1s ,color 2s ,font-size 1s;
+}
+
+h4:hover{
+ padding:40px;
+ font-size: 1rem;
+ color: white;
+}
+
+    .coding{
+        display: inline-block;
+        text-align: center;
+        
+        margin-left:60px;
+        padding: 10px; 
+        color: rgb(199, 189, 189);
+        transition: border-radius 1s ;
+    }
+
+    .coding:hover{
+        border-radius: 25px;
+      
+    }
+    .coding p{
+        width: 149px;
+        font-size:1.1rem;
+        font-weight: 400;
+        margin: 10px 5px 10px 20px;
+    }
+
+   
+    #knowledge{
+         background: -webkit-linear-gradient(#eee, #333);
+    }
+      .mypic{
+    width: 90px;
+    border-radius: 10px;
+    
+    margin-bottom: 62px;
+    margin-right: 18px;
+      }
+
+      .arrowtop{
+          
+        float:right;
+        margin-right: 33px;
+        margin-top: 22px;
+        background-color:  white;
+        font-size: 2rem;
+        transition: 1s;
+    }
+
+    .arrowtop:hover{
+        background-color: blue;
+    }
+
+    .down{
+    float: right;
+    margin-left: 800px;
+    background-color: white;
+    }
+    .down:hover{
+        background-color: blue;
+    }
+
+
+    @media screen and (max-width: 414px) {
+        /* body {
+          background-color: lightgreen;
+        } */
+        #first{
+            background: none;
+        }
+        .first_comp{
+            display: none;
+        }
+        .description{
+            background: -webkit-linear-gradient(#eee, #333);
+            float: none;
+            width: 408px; 
+            /* position: absolute;
+            left: 100px;
+            bottom: 400px; */
+           
+        }
+        .cont{
+           margin-right: 500px;
+           font-size: .5rem;
+           overflow: hidden;
+        }
+   #hob{
+       margin-left: 0px;
+   }
+
+  .hobbies{
+      margin-left: 158px;
+  }
+
+  #rowdiv2{
+      margin-top: 5px;
+  }
+  .coding{
+      margin-bottom: 10px;
+  }
+      }
+    
